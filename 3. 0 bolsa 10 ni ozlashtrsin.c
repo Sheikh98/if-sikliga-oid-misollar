@@ -8,15 +8,15 @@ int main()
     int son, x;
     printf("son kriting");
     scanf("%d",&son);
-    if(son>=-1){
-        x = son + 1;
+    if(son<=-1){
+        x = son - 2;
     }else{
-        if(son<=-1){
-            x = son - 2;
-        }
-    }
         if(son==0){
             x = son + 10;
+        }
+    }
+        if(son>=+1){
+            x = son;
         }
 
 

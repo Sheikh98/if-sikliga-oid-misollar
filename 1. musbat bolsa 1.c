@@ -13,16 +13,16 @@ int main()
 {
     int x, son;
     printf("son kriting ");
-    scanf("%lf", &son);
+    scanf("%d", &son);
     if (son>-1){
-        x = son+1;
+        x = son + 1;
     }else{
-        if(son==0)
-            x = son
+        if(son<-1){
+            x = son;
 
+        }
     }
     printf("%d", x);
-
 
 
     return 0;
